@@ -2,6 +2,10 @@
 
 A JUCE-based MIDI chord-detection VST3 plugin. It recognizes chords in real time and renders the active notes and chord on a circular diagram; when the chord changes, a fading arc arrow indicates the direction of the progression. A non-profit, personal/educational project.
 
+<img src="readme_images/screenshot1.png" alt="Main Interface" width="600">
+<img src="readme_images/screenshot2.png" alt="Settings" width="600">
+<img src="readme_images/screenshot3.png" alt="3D Lean Effect" width="600">
+
 ## Features
 
 - **Real-time MIDI detection** — receives MIDI notes (including notes played from the FL Studio piano roll), deduplicates them, and analyzes them by pitch class.
@@ -63,8 +67,10 @@ Source/
 ```
 
 ## Declaration
-- This project was completed with the assistance of AI.
+- This project is completed with AI assistance by only one person, and it is unlikely to be frequently maintained and modified.
+- Currently this project only supports Chinese.
 - The testing scope of this project is limited, and there may be unknown bugs on your device.
+- This project only supports Windows.
 
 ## License
 
@@ -75,6 +81,10 @@ CircleChord is licensed under the **GNU General Public License v3.0** — see [`
 # CircleChord（中文）
 
 基于 JUCE 的 MIDI 和弦检测 VST3 插件。它实时识别当前和弦，并把激活音符与和弦呈现在环形图上；和弦切换时用渐隐的弧形箭头表示进行方向。非盈利的个人/学习项目。
+
+<img src="readme_images/screenshot1.png" alt="Main Interface" width="600">
+<img src="readme_images/screenshot2.png" alt="Settings" width="600">
+<img src="readme_images/screenshot3.png" alt="3D Lean Effect" width="600">
 
 ## 功能
 
@@ -137,9 +147,10 @@ Source/
 
 ```
 ## 声明
-- 该项目使用了AI辅助完成。
+- 该项目仅由一人使用AI辅助完成，大概不会经常维护修改。
+- 目前该项目只支持中文。
 - 该项目测试范围有限，可能在您的设备上有未知的bug出现。
-- 
+- 该项目只支持Windows。
 
 ## 许可
 
